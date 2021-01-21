@@ -1,0 +1,17 @@
+Read Me file for the project:
+
+This project is a capstone project for an initiative taken by California State University ( Fullerton) for combating the damage done by Forest fires in California. The first step of the project was
+1. Creating and understanding the Matlab reports of classification. ( I have focused my own dataset as I wanted to deploy the model using 'Rule of 30') 
+2. Once the reports are satisfactory I used Sklearn package with SVM classifier.
+3. The binary Classification model is trained for the target class 'Fire'= 1, and 'No Fire' = '0' and the predictions are achieved using predict_proba.
+4. As my front end was expected to be an android Application, I have converted the predictions using json package.
+
+The second step was to create the front end genrally found in App.js
+1. I am getting my Temperature, Pressure, Humidity and sending them as a json object back to my Flask Api.
+2. Once that is done I used POSTMAN to flash my front end to the Web and then connected to the Backend.
+3. The response received from the Flask Backend is then displayed using the ALERT.
+
+The third step is still under process as I have completed the project successfuly, now I want to add more pages and use the location to alert near by fire stations.
+Also I am planning to add a ' ChatBot ' application using React so that people who are away from the place of fire ( assuming they are not present at their property )  can notify the fire fighters/ helpers to take care of any pets or valueable assets left back at home
+
+Any opinions or additional comments would be great!
